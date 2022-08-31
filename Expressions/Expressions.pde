@@ -1,0 +1,12 @@
+println(2+2);
+println(4-2);
+println(32*3);
+println(6/2);
+println(8%3);
+println(5*(4+4));
+println(99>21);
+println(5<=2);
+println(21>=21);
+println(true && false || false == false);
+println(8!=5);
+println((3<5) && (9>10));
