@@ -10,6 +10,14 @@ void setup(){
   setupGame();
   choosePiece();
 }
+void tie(){
+    background(0);
+   textSize(25);
+   fill(255,255,255);
+ text("It's a tie.", 125, 150);
+ text("Player 1 pick the better piece again", 30, 200);
+ text("By hitting X or O on the keyboard", 35, 250);
+}
 void startGame(){
  background(255,255,255); 
  fill(0,0,0);
@@ -103,6 +111,8 @@ void draw() {
     }else if(gameBoard[2][0] == p1){
       p1wins();
   }   
+      }else if(gameBoard[0][0] != " "&&gameBoard[0][1] != " " &&gameBoard[0][2] != " "&&gameBoard[1][0] != " " &&gameBoard[1][1] != " "&&gameBoard[1][2] != " "&&gameBoard[2][0] != " "&&gameBoard[2][1] != " "&&gameBoard[2][2] != " "){
+       tie();
       }
 }
 void keyTyped(){
