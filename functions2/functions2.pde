@@ -1,5 +1,5 @@
 int[] Move ={0, 331,};
-int red = 255;ssss
+int red = 255;
 void setup(){
   size(400,400);
 
