@@ -251,7 +251,7 @@ void mouseClicked(){
    board[1][4] = 1;
    turn();
   }else if(board[1][3] == 0){
-   fill(275,160,222);
+   fill(218,160,222);
    circle(275,610,150);
    board[1][3] = 1;
    turn();
@@ -271,7 +271,7 @@ void mouseClicked(){
    board[1][0] = 1;
    turn();
   }
-}else if(mouseX <= 350 && mouseX>=200 && p1 == 2&& value == 0){
+}else if(mouseX <= 350&& mouseX>=200 && p1 == 2&& value == 0){
     if(board[1][5] == 0){
       fill(110,255,134);
       circle(275, 950, 150);
@@ -367,7 +367,7 @@ void mouseClicked(){
    board[1][0] = 1;
    turn();
   }
-}else if(mouseX >= 350 && mouseX>=450 && p2 == 1&& value == 1){
+}else if(mouseX >= 351 && mouseX<=500 && p2 == 1&& value == 1){
     if(board[2][5] == 0){
       fill(218, 160, 222);
       circle(450, 950, 150);
@@ -379,13 +379,13 @@ void mouseClicked(){
    board[2][4] = 1;
    turn();
   }else if(board[2][3] == 0){
-   fill(275,160,222);
+   fill(218,160,222);
    circle(450,610,150);
    board[2][3] = 1;
    turn();
   }else if(board[2][2] == 0){
-   fill(450,160,222);
-   circle(275,440,150);
+   fill(218,160,222);
+   circle(450,440,150);
    board[2][2] = 1;
    turn();
   }else if(board[2][1] == 0){
@@ -397,6 +397,102 @@ void mouseClicked(){
    fill(218,160,222);
    circle(450,100,150);
    board[2][0] = 1;
+   turn();
+  }
+}else if(mouseX >= 351 && mouseX<=500 && p1 == 1&& value == 0){
+    if(board[2][5] == 0){
+      fill(218, 160, 222);
+      circle(450, 950, 150);
+      board[2][5] = 1;
+    turn();
+  }else if(board[2][4] == 0){
+   fill(218,160,222);
+   circle(450,780,150);
+   board[2][4] = 1;
+   turn();
+  }else if(board[2][3] == 0){
+   fill(218,160,222);
+   circle(450,610,150);
+   board[2][3] = 1;
+   turn();
+  }else if(board[2][2] == 0){
+   fill(218,160,222);
+   circle(450,440,150);
+   board[2][2] = 1;
+   turn();
+  }else if(board[2][1] == 0){
+   fill(218,160,222);
+   circle(450,270,150);
+   board[2][1] = 1;
+   turn();
+  }else if(board[2][0] == 0){
+   fill(218,160,222);
+   circle(450,100,150);
+   board[2][0] = 1;
+   turn();
+  }
+}else if(mouseX >= 351 && mouseX<=500 && p2 == 2&& value == 1){
+    if(board[2][5] == 0){
+       fill(110,255,134);
+      circle(450, 950, 150);
+      board[2][5] = 2;
+    turn();
+  }else if(board[2][4] == 0){
+    fill(110,255,134);
+   circle(450,780,150);
+   board[2][4] = 2;
+   turn();
+  }else if(board[2][3] == 0){
+    fill(110,255,134);
+   circle(450,610,150);
+   board[2][3] = 2;
+   turn();
+  }else if(board[2][2] == 0){
+    fill(110,255,134);
+   circle(450,440,150);
+   board[2][2] = 2;
+   turn();
+  }else if(board[2][1] == 0){
+    fill(110,255,134);
+   circle(450,270,150);
+   board[2][1] = 2;
+   turn();
+  }else if(board[2][0] == 0){
+    fill(110,255,134);
+   circle(450,100,150);
+   board[2][0] = 2;
+   turn();
+  }
+}else if(mouseX >= 351 && mouseX<=500 && p1 == 2&& value == 0){
+    if(board[2][5] == 0){
+       fill(110,255,134);
+      circle(450, 950, 150);
+      board[2][5] = 2;
+    turn();
+  }else if(board[2][4] == 0){
+    fill(110,255,134);
+   circle(450,780,150);
+   board[2][4] = 2;
+   turn();
+  }else if(board[2][3] == 0){
+    fill(110,255,134);
+   circle(450,610,150);
+   board[2][3] = 2;
+   turn();
+  }else if(board[2][2] == 0){
+    fill(110,255,134);
+   circle(450,440,150);
+   board[2][2] = 2;
+   turn();
+  }else if(board[2][1] == 0){
+    fill(110,255,134);
+   circle(450,270,150);
+   board[2][1] = 2;
+   turn();
+  }else if(board[2][0] == 0){
+    fill(110,255,134);
+   circle(450,100,150);
+   board[2][0] = 2;
    turn();
   }
 }
