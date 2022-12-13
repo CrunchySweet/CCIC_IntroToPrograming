@@ -921,7 +921,7 @@ void mouseClicked(){
    board[5][0] = 1;
    turn();
   }
-}else if(mouseX >= 1001 && mouseX<=1260 && p1 == 1&& value == 0){
+}else if(mouseX >= 1101 && mouseX<=1260 && p1 == 1&& value == 0){
     if(board[5][6] == 0){
       fill(218,160,222);
       circle(1150, 950, 150);
@@ -932,10 +932,10 @@ void mouseClicked(){
    circle(1150,780,150);
    board[4][6] = 1;
    turn();
-  }else if(board[3][5] == 0){
+  }else if(board[3][6] == 0){
     fill(218,160,222);
    circle(1150,610,150);
-   board[3][5] = 1;
+   board[3][6] = 1;
    turn();
   }else if(board[2][6] == 0){
    fill(218,160,222);
@@ -953,7 +953,7 @@ void mouseClicked(){
    board[0][6] = 1;
    turn();
   }
-}else if(mouseX >= 1001 && mouseX<=1260 && p2 == 1&& value == 1){
+}else if(mouseX >= 1101 && mouseX<=1260 && p2 == 1&& value == 1){
     if(board[5][6] == 0){
       fill(218,160,222);
       circle(1150, 950, 150);
@@ -964,10 +964,10 @@ void mouseClicked(){
    circle(1150,780,150);
    board[4][6] = 1;
    turn();
-  }else if(board[3][5] == 0){
+  }else if(board[3][6] == 0){
     fill(218,160,222);
    circle(1150,610,150);
-   board[3][5] = 1;
+   board[3][6] = 1;
    turn();
   }else if(board[2][6] == 0){
    fill(218,160,222);
@@ -985,7 +985,7 @@ void mouseClicked(){
    board[0][6] = 1;
    turn();
   }
-}else if(mouseX >= 1001 && mouseX<=1260 && p1 == 2&& value == 0){
+}else if(mouseX >= 1101 && mouseX<=1260 && p1 == 2&& value == 0){
     if(board[5][6] == 0){
       fill(110,255,134);
       circle(1150, 950, 150);
@@ -996,10 +996,10 @@ void mouseClicked(){
    circle(1150,780,150);
    board[4][6] = 2;
    turn();
-  }else if(board[3][5] == 0){
+  }else if(board[3][6] == 0){
    fill(110,255,134);
    circle(1150,610,150);
-   board[3][5] = 2;
+   board[3][6] = 2;
    turn();
   }else if(board[2][6] == 0){
    fill(110,255,134);
@@ -1017,7 +1017,7 @@ void mouseClicked(){
    board[0][6] = 2;
    turn();
   }
-}else if(mouseX >= 1001 && mouseX<=1260 && p2 == 2&& value == 1){
+}else if(mouseX >= 1101 && mouseX<=1260 && p2 == 2&& value == 1){
     if(board[5][6] == 0){
       fill(110,255,134);
       circle(1150, 950, 150);
@@ -1028,10 +1028,10 @@ void mouseClicked(){
    circle(1150,780,150);
    board[4][6] = 2;
    turn();
-  }else if(board[3][5] == 0){
+  }else if(board[3][6] == 0){
    fill(110,255,134);
    circle(1150,610,150);
-   board[3][5] = 2;
+   board[3][6] = 2;
    turn();
   }else if(board[2][6] == 0){
    fill(110,255,134);
